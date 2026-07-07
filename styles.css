@@ -50,6 +50,8 @@ ul {
     display: flex;
     justify-content: center;
     background-color: white;
+    padding: 10px 0;
+   
 }
 
 .navbar ul {
@@ -60,12 +62,15 @@ ul {
 }
 
 .navbar li {
-    margin: 20px;
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar ul li a {
     color: #124694;
-    text-decoration: none;
+    text-decoration: none;   
 }
 
 .hospital-logo {
