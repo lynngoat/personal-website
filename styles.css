@@ -1,0 +1,89 @@
+body {
+    font-family: Courier, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: DodgerBlue;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    text-decoration:underline;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none; /* Removes the bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+    margin: 20px;
+}
+
+.navbar ul li a {
+    color: #124694;
+    text-decoration: none;
+}
+
+.hospital-logo {
+    width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+}
+
+footer ul {
+    display: flex;
+    list-style: none; /* Removes the bullet points */
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 10px;
+}
