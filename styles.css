@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Courier, sans-serif;
     margin: 0;
@@ -13,11 +14,30 @@ h1 {
 
 h2 {
     color: white;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*
+main text styles
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+p {
+    color: #124694;
+>>>>>>> 731736e (Updated home page)
     text-align: center;
     padding: 10px;
 }
 
 h3 {
+<<<<<<< HEAD
     color: white;
     text-align: center;
     padding: 10px;
@@ -27,6 +47,9 @@ p {
     color: white;
     text-align: center;
     padding: 10px;
+=======
+    color:white;
+>>>>>>> 731736e (Updated home page)
 }
 
 a {
@@ -46,6 +69,110 @@ ul {
     text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+li {
+    color:white;
+}
+
+
+/*
+    Main Content Styles
+*/
+
+/* Vision Section Styles */
+
+#vision {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#vision-image {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    opacity: 0.7;
+    object-fit: cover;
+}
+
+#vision-message {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color: white;
+
+    font-size: 100px;
+    font-weight: 800;
+    z-index: 1;
+
+    text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+/*
+    Information Section Styles
+*/
+#information {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#information h1 {
+    margin-left: 40px;
+    color:#124694;
+    text-decoration: underline;
+}
+
+#information p {
+    text-align: left;
+    margin-left: 30px;
+    font-size: 20px;
+    color: #3d3f45;
+}
+
+.information-text-image img {
+    width: 400px;
+    border-radius: 5px;
+    margin-right: 40px;
+    justify-content: center;
+}
+
+.information-text {
+    flex: 1;
+}
+
+/*
+    News Boxes Styles
+*/
+
+#news-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin: 30px;
+    height: 300px;
+}
+
+.news-box {
+    flex: 1;
+    padding: 20px;
+    background-color: #7781d9;
+    border-radius: 40px;
+    text-align: center;
+}
+
+/*
+    Navbar Styles
+*/
+
+>>>>>>> 731736e (Updated home page)
 .navbar {
     display: flex;
     justify-content: center;
@@ -77,18 +204,46 @@ ul {
     width: 100px;
 }
 
+<<<<<<< HEAD
 footer {
     display: flex;
     justify-content: right;
 }
 
 footer ul {
+=======
+/*
+    Footer Styles
+*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer h3 {
+    color: #124694;
+}
+
+.footer ul {
+>>>>>>> 731736e (Updated home page)
     display: flex;
     list-style: none; /* Removes the bullet points */
     padding: 0;
     margin: 0;
 }
 
+<<<<<<< HEAD
 footer li {
     margin: 10px;
 }
+=======
+.footer li {
+    margin: 10px;
+}
+
+#footer-links li a, #footer-socials li a {
+    color: #124694;
+    text-decoration: none;
+}
+>>>>>>> 731736e (Updated home page)
