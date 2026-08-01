@@ -83,9 +83,16 @@ li {
     text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
 }
 
-/*
-    Information Section Styles
-*/
+/* Information Section Styles */
+
+.divider {
+    width: 65%;
+    background: #124694;
+    height: 1px;
+  
+    margin-top: -20px;
+}
+
 #information {
     display: flex;
     align-items: center;
@@ -120,7 +127,7 @@ li {
     News Boxes Styles
 */
 
-#news-boxes {
+#vision-boxes {
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
@@ -128,12 +135,30 @@ li {
     height: 300px;
 }
 
-.news-box {
-    flex: 1;
+.vision-box {
+    width: 400px;
+    height: 200px;
     padding: 20px;
-    background-color: #7781d9;
+    background-color: #053275;
     border-radius: 40px;
     text-align: center;
+}
+
+.vision-box h3 {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.vision-box p {
+    color: white;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+.vision-box ul {
+    font-weight: 600;
+    margin-top: -10px;
 }
 
 /*
@@ -178,24 +203,39 @@ li {
 .footer {
     display: flex;
     justify-content: center;
+
+    padding: 10px;
+    gap: 80px;
+    margin-right: 200px;
 }
 
-.footer h3 {
+.footer-section h3 {
     color: #124694;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin-top: 2px;
+    padding: 0px;
 }
 
 .footer ul {
-    display: flex;
     list-style: none; /* Removes the bullet points */
     padding: 0;
     margin: 0;
 }
 
 .footer li {
-    margin: 10px;
+    margin: 10px 0;
 }
 
 #footer-links li a, #footer-socials li a {
     color: #124694;
     text-decoration: none;
+}
+
+.socials-logo {
+    width: 30px;
+    height: 30px;
 }
