@@ -259,3 +259,31 @@ li {
     width: 30px;
     height: 30px;
 }
+
+/* Services Page Styles */
+
+.services-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 30px;
+}
+
+.service-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.service-column h2 {
+    margin: 0;
+    text-decoration: underline;
+}
+
+.service-column p {
+    line-height: 1.6;
+    padding: 0;
+    text-align: left;
+    color: #3d3f45;
+}
