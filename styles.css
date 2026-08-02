@@ -159,6 +159,12 @@ li {
     flex: 1;
 }
 
+.main-text ul li {
+    color: #3d3f45;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 40px;
+}
 /*
     News Boxes Styles
 */
