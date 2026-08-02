@@ -18,8 +18,15 @@ p {
     padding: 10px;
 }
 
-h3 {
-    color:white;
+h1 {
+    margin-left: 40px;
+    color:#124694;
+    text-decoration: underline;
+}
+
+h2 {
+    margin-left: 40px;
+    color:#124694;
 }
 
 a {
@@ -43,6 +50,49 @@ li {
     color:white;
 }
 
+/* Navbar Styles */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #e2e2e2;
+    padding: 10px 0;
+   
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none; /* Removes the bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+    display: flex;
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li a {
+    color: #124694;
+    text-decoration: none;   
+}
+
+.hospital-logo {
+    width: 85px;
+}
+
+#sickkids-logo {
+    border: 3px solid black;
+}
+
+#sickkids-link {
+    display: block;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
 
 /*
     Main Content Styles
@@ -83,35 +133,29 @@ li {
     text-shadow: 0 3px 8px rgba(0, 0, 0, 0.6);
 }
 
-/* Information Section Styles */
+/* Main Text Section Styles */
 
-#information {
+#main {
     display: flex;
     align-items: center;
     gap: 40px;
 }
 
-#information h1 {
-    margin-left: 40px;
-    color:#124694;
-    text-decoration: underline;
-}
-
-#information p {
+#main p {
     text-align: left;
     margin-left: 30px;
     font-size: 20px;
     color: #3d3f45;
 }
 
-.information-text-image img {
+.main-text-image img {
     width: 400px;
     border-radius: 5px;
     margin-right: 40px;
     justify-content: center;
 }
 
-.information-text {
+.main-text {
     flex: 1;
 }
 
@@ -155,41 +199,6 @@ li {
 }
 
 /*
-    Navbar Styles
-*/
-
-.navbar {
-    display: flex;
-    justify-content: center;
-    background-color: white;
-    padding: 10px 0;
-   
-}
-
-.navbar ul {
-  display: flex;
-  list-style: none; /* Removes the bullet points */
-  padding: 0;
-  margin: 0;
-}
-
-.navbar li {
-    display: flex;
-    margin: 0 20px;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar ul li a {
-    color: #124694;
-    text-decoration: none;   
-}
-
-.hospital-logo {
-    width: 100px;
-}
-
-/*
     Divider
 */
 
@@ -204,7 +213,6 @@ li {
 /*
     Footer Styles
 */
-
 
 .footer {
     display: flex;
