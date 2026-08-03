@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1, 
+        "title": "Blog Day 1", 
+        "date": "2025-07-30", 
+        "summary": "Working on Home Page for SickKids", 
+        "category": "Home Page", 
+        "content": "Today I worked on the home page for SickKids. \n\nSome problems I faced are: \n\n1. Background picture of vision statement is repeating because it's not wide enough and when decreasing the opacity, it would decrease the opacity of the text as well. \n2. Found a different picture but it is too bright \n3. List is different height from h3 in the footer.\n 4. Footer isn't at the bottom \n\n Haven't finished the mission, values, vision boxes yet."
+
+    },
+    {
+        "id": 2, 
+        "title": "Blog Day 2", 
+        "date": "2025-07-31", 
+        "summary": "Finished Designing Home Page", 
+        "category": "Home Page", 
+        "content": "Fixed the issues from yesterday involving the background picture and text. Finished the mission, values, and vision boxes and made them visible."
+    },
+    {
+        "id": 3, 
+        "title": "Blog Day 3", 
+        "date": "2025-08-01", 
+        "summary": "Finishing up most of HTML and CSS", 
+        "category": "HTML/CSS", 
+        "content": "Realized I was wasting too much time on the HTML and CSS so I finished most of it today. Ignored News/Blog section and contact section to work on javascript first before making them. \n\n Things Accomplished: \n1. Finished Footer with copyright and quick links to everything including icons. \n2. Finished Summarizing About Page for SickKids \n3. Added 2 columns and 'Services provided' to Services Page/Finished it \n 4. Finished Products page with card style info boxes. Picture, Title, Description, Button for each. Buttons don't actually lead to anywhere but are clickable."
+    }
+]
