@@ -9,13 +9,46 @@
 </head>
 <body>
 
+    <!-- Navbar -->
     <header>
         <div id="header-placeholder"></div>
     </header>
 
+<main>
+    <section class="contact-section">
 
-    <h1>Contact</h1>
-    <p>This is the contact page for my website.</p>
+        <h1>Contact Us</h1>
+
+        <form id="contact-form">
+
+            <!-- Name -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <span class="error-msg"></span>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <span class="error-msg"></span>
+
+            <!-- Message Box -->
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <span class="error-msg"></span>
+
+            <!-- Submit button -->
+            <button type="submit" class="contact-sub-btn">Submit</button>
+
+        </form>
+
+        <!-- Message sent successfully -->
+        <div id="success-message"></div>
+
+    </section>
+</main>
 
     <!-- Footer -->
     <footer class = "footer">
@@ -24,5 +57,6 @@
 
     <script src="js/theme.js"></script>
     <script src="js/components.js"></script>
+    <script src="js/validate.js"></script>
 </body>
 </html>

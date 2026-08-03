@@ -435,3 +435,39 @@ main {
 .read-more:hover {
     opacity: 0.8;
 }
+
+/* Contact Form Styles */
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    gap: 12px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact-form textarea {
+    height: 200px;
+}
+
+.error-msg {
+    color: red;
+    font-size: 14px;
+}
+
+#success-message {
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-sub-btn {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px 20px;
+    font-size: 15px;
+}
