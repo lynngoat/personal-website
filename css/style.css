@@ -13,6 +13,7 @@ html {
     --primary: #124694;
     --secondary-text: #3d3f45;
     --nav-bg: #e2e2e2;
+    --news-bg: #ffffff;
 }
 
 [data-theme="dark"] {
@@ -21,6 +22,7 @@ html {
     --primary: #f0f0f0;
     --secondary-text: #d0d0d0;
     --nav-bg: #2b2b2b;
+    --news-bg: #2b2b2b;
 }
 
 #theme-toggle {
@@ -380,4 +382,56 @@ main {
 .product-card a {
     display: inline-block;
     margin-top: 15px;
+}
+
+/* Blog Page Styles */
+
+.post-card {
+
+    background: var(--news-bg);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
+
+}
+
+.post-content {
+    white-space: pre-line;
+}
+
+.post-card p {
+    font-size: 20px;
+}
+
+.post-meta {
+
+    color: gray;
+    font-size: 20px;
+
+}
+
+.latest-badge {
+
+    background: crimson;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-size: .8rem;
+
+}
+
+.read-more {
+    background-color: var(--primary);
+    color: var(--bg);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.read-more:hover {
+    opacity: 0.8;
 }
