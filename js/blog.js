@@ -21,7 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
                     {
                         year: "numeric",
                         month: "long",
-                        day: "numeric"
+                        day: "numeric",
+                        hour: "numeric",
+                        minute: "numeric"
                     }
                 );
 

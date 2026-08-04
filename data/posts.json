@@ -3,9 +3,9 @@
         "id": 1, 
         "title": "Blog Day 1", 
         "date": "2025-07-30", 
-        "summary": "Working on Home Page for SickKids", 
+        "summary": "Working on Home Page for SickKids and figuring out main design components", 
         "category": "Home Page", 
-        "content": "Today I worked on the home page for SickKids. \n\nSome problems I faced are: \n\n1. Background picture of vision statement is repeating because it's not wide enough and when decreasing the opacity, it would decrease the opacity of the text as well. \n2. Found a different picture but it is too bright \n3. List is different height from h3 in the footer.\n 4. Footer isn't at the bottom \n\n Haven't finished the mission, values, vision boxes yet."
+        "content": "Today I worked on the home page for SickKids. \n\nSome problems I faced are: \n\n1. Background picture of vision statement is repeating because it's not wide enough and when decreasing the opacity, it would decrease the opacity of the text as well. \n2. Found a different picture but it is too bright \n3. List is different height from h3 in the footer.\n 4. Footer isn't at the bottom \n\n Haven't finished the mission, values, vision boxes yet.\n\n The first 3 blog posts were for my own recording so I decided to keep jot notes on a notepad for whenever I made edits to the project."
 
     },
     {
@@ -20,8 +20,40 @@
         "id": 3, 
         "title": "Blog Day 3", 
         "date": "2025-08-01", 
-        "summary": "Finishing up most of HTML and CSS", 
+        "summary": "Finishing up most of HTML and CSS on other pages", 
         "category": "HTML/CSS", 
         "content": "Realized I was wasting too much time on the HTML and CSS so I finished most of it today. Ignored News/Blog section and contact section to work on javascript first before making them. \n\n Things Accomplished: \n1. Finished Footer with copyright and quick links to everything including icons. \n2. Finished Summarizing About Page for SickKids \n3. Added 2 columns and 'Services provided' to Services Page/Finished it \n 4. Finished Products page with card style info boxes. Picture, Title, Description, Button for each. Buttons don't actually lead to anywhere but are clickable."
+    },
+    {
+        "id": 4,
+        "title": "Blog Day 4 - Part 1: Adding a Theme Toggle with JavaScript",
+        "date": "2026-08-02",
+        "category": "JavaScript",
+        "summary": "Added a theme toggle feature that lets users switch between light and dark mode while saving their preference",
+        "content": "For this feature, I created a theme toggle button that switches between light and dark mode for the website. I used JavaScript to change data attribute on the body element, and this allows CSS to control the colors across the website. I also used localStorage so the selected theme would be saved and stay that way when the user refreshed the page or changed between them. One challenge that I encountered was making sure the theme setting worked across every page after moving the header into a dynamic component. I also struggled to pick the colours between each mode because some things became unreadable and not friendly on the eyes. I also tried to do everything at once and it didn't work out so I decided to change my approach and do one part at a time afterwards."
+    },
+    {
+        "id": 5,
+        "title": "Blog Day 5 - Part 3: Creating a Dynamic Blog Section Using JSON",
+        "date": "2026-08-03T17:30:00",
+        "category": "JavaScript",
+        "summary": "Created a dynamic news section that loads blog posts from a JSON file.",
+        "content": "For this feature, I created the posts.json file to store information about each blog post, including the title, date, category, summary, and content. I used JavaScript fetch() to load the JSON data and automatically generate post cards on the news page. I sorted the posts by date so that the newest posts appear first and formatted the dates to make it easier to read. I adeed a Latest Post badge next to it to highlight that it is the newest one. One challenge I encountered was learning how to use JSON to store website data and how JS can create and update the page content without hard-coding it in. \n\nAs I was writing this, I realized that I had to add a timestamp to my blog posts that happen on the same day, or the order of the posts and the latest post badge can get messed up." 
+    },
+    {
+        "id": 6,
+        "title": "Blog Day 5 - Part 4: Creating the Contact Form and the validation for it",
+        "date": "2026-08-03T19:30:00",
+        "category": "JavaScript",
+        "summary": "Added client-side validation to my contact form to make sure users enter valid information before submitting",
+        "content": "For this feature, I created client-side validation for my contact form using JavaScript. I made sure that the name field isn't empty, the email address followed a valid format, and the message contained at least 20 characters before the form was allowed to be submitted. If any field is invalid, an error message is displayed under the corresponding input. If all fields pass validatoin, the form was replaced with a success message after submitting. \n\nOne challenge I encountered was deciding how to display the error messages under each input field without making the form difficult to read. I also had to make sure each validation rule worked independently. I also wasn't too sure how to set up the email validation until I found a stack overflow question that was similar to mine. Testing different inputs helped me catch small mistakes in my validation logic and make sure it was working correctly. \n\nThis feature helped me better understand how JS can interact with form elements and prevent the default form submission. I learned how important it is to validate user input to prevent false submissions."
+    },
+    {
+        "title": "Blog Day 5 - Part 5: Adding a Live Search Filter to Products",
+        "date": "2026-08-03T22:40:00",
+        "category": "JavaScript",
+        "summary": "Added a live search feature that allows users to find products by filtering cards without refreshing the page.",
+        "content": "For this feature, I created a live search filter for my products page using JavaScript. I added a search bar that listens for user input and checks the product titles and descriptions to find matches. When a user types in a search term, the JS compares it with the information inside every product card and hides any cards that don't match. I also added a message that appears when no products match the search. \n\nOne challenge that I encountered was making sure the filter worked properly with my existing cards. I had to go in and add classes to my current products. Another challenge was making sure that the cards return to their normal display after the search is cleared. \n\nI learned how JavaScript can listen for real time actions and change what appears on the webpage. I learned how much stuff is happening behind the scenes when I use other websites in my every day life. I also learned that it is important to keep an organized HTML and CSS with meaningful classes to make it easier for JavaScript itself and for me to interact with and change the content."
     }
+
 ]
