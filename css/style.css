@@ -407,38 +407,39 @@ main {
 /* Blog Page Styles */
 
 .post-card {
-
     background: var(--news-bg);
-    border-radius: 10px;
+    
     padding: 20px;
     margin: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,.15);
 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.15);
 }
 
 .post-content {
     white-space: pre-line;
 }
 
+.post-card h2 {
+    padding: 10px;
+}
 .post-card p {
     font-size: 20px;
+    text-align: left;
+    width: 90%;
 }
 
 .post-meta {
-
     color: gray;
     font-size: 20px;
-
 }
 
 .latest-badge {
-
     background: crimson;
     color: white;
     padding: 3px 8px;
     border-radius: 5px;
     font-size: .8rem;
-
 }
 
 .read-more {
