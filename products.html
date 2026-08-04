@@ -14,12 +14,22 @@
     </header>
 
     <main>
+
+        <!-- Search box -->
+        <div class="filter-container">
+        <input type="text" id="filter-input" placeholder="Search products...">
+
+        <p id="no-results" style="display: none;">
+            No results found.
+        </p>
+        </div>
+
         <div class="product-grid">
 
             <div class="product-card">
                 <img src="images/pediatric-care.jpeg" alt="Pediatric Care">
-                <h2>Comprehensive Pediatric Care</h2>
-                <p>
+                <h2 class="card-title">Pediatric Care</h2>
+                <p class="card-description">
                     SickKids provides specialized health-care services designed
                     for children and their families.
                 </p>
@@ -28,8 +38,8 @@
 
             <div class="product-card">
                 <img src="images/sickkids-research.webp" alt="Research">
-                <h2>Research Innovation</h2>
-                <p>
+                <h2 class="card-title">Research Innovation</h2>
+                <p class="card-description">
                     Research programs at SickKids create discoveries that improve
                     pediatric health outcomes.
                 </p>
@@ -38,8 +48,8 @@
 
             <div class="product-card">
                 <img src="images/family-spaces-sickkids.jpg" alt="Family Spaces">
-                <h2>Family Support Programs</h2>
-                <p>
+                <h2 class="card-title">Family Support Programs</h2>
+                <p class="card-description">
                     SickKids provides programs such as Family Spaces and other support services. We help create a comfortable and inclusive environment for children and their 
                     families during hospital visits.
                 </p>
@@ -48,8 +58,8 @@
 
             <div class="product-card">
                 <img src="images/children-health.jpg" alt="Children's Health">
-                <h2>Global Health Initiatives</h2>
-                <p>
+                <h2 class="card-title">Global Health Initiatives</h2>
+                <p class="card-description">
                     SickKids engages in worldwide initiatives with international partners to improve child health care, share knowledge,
                     and support healthier futures for children all around the world.
                 </p>
@@ -67,5 +77,6 @@
 
     <script src="js/theme.js"></script>
     <script src="js/components.js"></script>
+    <script src="js/filter.js"></script>
 </body>
 </html>

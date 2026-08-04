@@ -353,6 +353,26 @@ main {
 
 /* Products Page Styles */
 
+/*Filter */
+.filter-container {
+    text-align: center;
+    margin: 10px;
+}
+
+#filter-input {
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+}
+
+#no-results {
+    color: black;
+    font-weight: bold;
+}
+
+/* Products */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
